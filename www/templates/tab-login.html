@@ -1,0 +1,27 @@
+<ion-view view-title="Mi Perfil">
+	<ion-content>
+		<ion-list>
+
+			<div class="list">
+			<h1 class="title">LOGIN</h1>
+			<form ng-submit="onSubmit()">
+			  <label class="item item-input">
+			    <span class="input-label">Username</span>
+			    <input type="text" ng-model=user.usuario>
+			  </label>
+			  <label class="item item-input">
+			    <span class="input-label">Password</span>
+			    <input type="password" ng-model=user.clave>
+			  </label>
+				<button class="button button-positive" type=submit>
+				  Ingresar
+				</button>
+			</form>
+
+			</div>
+
+		</ion-list>
+
+	</ion-content>	
+</ion-view>
+
